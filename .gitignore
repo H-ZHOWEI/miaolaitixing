@@ -1,0 +1,23 @@
+# ==== 个人数据（绝对不要上传）====
+tasks.json
+tasks.bak.json
+*.bak
+
+# ==== 构建产物 ====
+build/
+*.pyc
+*.pyo
+__pycache__/
+*.manifest
+*.log
+
+# dist 里只保留打包好的 exe，其他中间产物忽略
+dist/*
+!dist/喵来提醒.exe
+
+# ==== 编辑器 / 系统 ====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

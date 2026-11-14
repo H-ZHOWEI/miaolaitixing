@@ -1,0 +1,16 @@
+[
+  {
+    "datetime": "2026年11月14日18时00分",
+    "note": "下班打卡",
+    "completed": false,
+    "cycle_type": "daily",
+    "day_type": null
+  },
+  {
+    "datetime": "2026年11月30日09时00分",
+    "note": "月度报表提交",
+    "completed": false,
+    "cycle_type": "monthly",
+    "day_type": "last"
+  }
+]

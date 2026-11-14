@@ -1,0 +1,12 @@
+# 批处理必须是 CRLF，否则部分 Windows 环境下执行异常
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Python 与文档统一 LF
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# 二进制
+*.exe binary
+*.ico binary
